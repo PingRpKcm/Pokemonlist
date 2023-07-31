@@ -1,0 +1,14 @@
+.pokemon-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1900px;
+}
+
+.pokemon-card {
+    width: calc(100% / 18);
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    margin: 5px;
+    text-align: center;
+}
